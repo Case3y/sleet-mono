@@ -42,4 +42,4 @@ with your system font manager.
 
 ## License
 
-Plum Mono is licensed under the [MIT](LICENSE) License. 
+Sleet Mono is licensed under the [MIT](LICENSE) License. 
