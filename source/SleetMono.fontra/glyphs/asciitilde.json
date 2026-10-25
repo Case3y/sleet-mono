@@ -1,0 +1,226 @@
+{
+"name": "asciitilde",
+"sources": [
+{
+"name": "",
+"layerName": "532c9e5a",
+"locationBase": "532c9e5a"
+}
+],
+"layers": {
+"532c9e5a": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 501,
+"y": 451,
+"smooth": true
+},
+{
+"x": 522,
+"y": 442,
+"type": "quad"
+},
+{
+"x": 528,
+"y": 419,
+"type": "quad"
+},
+{
+"x": 528,
+"y": 399,
+"smooth": true
+},
+{
+"x": 529,
+"y": 323,
+"type": "quad"
+},
+{
+"x": 462,
+"y": 252,
+"type": "quad"
+},
+{
+"x": 388,
+"y": 248,
+"smooth": true
+},
+{
+"x": 350,
+"y": 246,
+"type": "quad"
+},
+{
+"x": 299,
+"y": 290,
+"type": "quad"
+},
+{
+"x": 272,
+"y": 327,
+"smooth": true
+},
+{
+"x": 253,
+"y": 354,
+"type": "quad"
+},
+{
+"x": 219,
+"y": 381,
+"type": "quad"
+},
+{
+"x": 197,
+"y": 380,
+"smooth": true
+},
+{
+"x": 175,
+"y": 379,
+"type": "quad"
+},
+{
+"x": 147,
+"y": 336,
+"type": "quad"
+},
+{
+"x": 154,
+"y": 283,
+"smooth": true
+},
+{
+"x": 157,
+"y": 264,
+"type": "quad"
+},
+{
+"x": 108,
+"y": 247,
+"type": "quad"
+},
+{
+"x": 94,
+"y": 255,
+"smooth": true
+},
+{
+"x": 77,
+"y": 265,
+"type": "quad"
+},
+{
+"x": 74,
+"y": 280,
+"type": "quad"
+},
+{
+"x": 73,
+"y": 287,
+"smooth": true
+},
+{
+"x": 61,
+"y": 391,
+"type": "quad"
+},
+{
+"x": 165,
+"y": 457,
+"type": "quad"
+},
+{
+"x": 201,
+"y": 455,
+"smooth": true
+},
+{
+"x": 231,
+"y": 454,
+"type": "quad"
+},
+{
+"x": 277,
+"y": 439,
+"type": "quad"
+},
+{
+"x": 311,
+"y": 403,
+"smooth": true
+},
+{
+"x": 331,
+"y": 381,
+"type": "quad"
+},
+{
+"x": 370,
+"y": 328,
+"type": "quad"
+},
+{
+"x": 393,
+"y": 326,
+"smooth": true
+},
+{
+"x": 413,
+"y": 324,
+"type": "quad"
+},
+{
+"x": 432,
+"y": 337,
+"type": "quad"
+},
+{
+"x": 445,
+"y": 358,
+"type": "quad"
+},
+{
+"x": 444,
+"y": 383,
+"type": "quad"
+},
+{
+"x": 443,
+"y": 401,
+"smooth": true
+},
+{
+"x": 442,
+"y": 415,
+"type": "quad"
+},
+{
+"x": 446,
+"y": 437,
+"type": "quad"
+},
+{
+"x": 465,
+"y": 452,
+"type": "quad"
+},
+{
+"x": 488,
+"y": 456,
+"type": "quad"
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 600
+}
+}
+}
+}

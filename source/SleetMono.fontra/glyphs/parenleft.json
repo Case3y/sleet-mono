@@ -1,0 +1,236 @@
+{
+"name": "parenleft",
+"sources": [
+{
+"name": "",
+"layerName": "532c9e5a",
+"locationBase": "532c9e5a"
+}
+],
+"layers": {
+"532c9e5a": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 435,
+"y": -95,
+"smooth": true
+},
+{
+"x": 390,
+"y": -83,
+"type": "quad"
+},
+{
+"x": 298,
+"y": -32,
+"type": "quad"
+},
+{
+"x": 236,
+"y": 61,
+"type": "quad"
+},
+{
+"x": 195,
+"y": 192,
+"type": "quad"
+},
+{
+"x": 188,
+"y": 269,
+"smooth": true
+},
+{
+"x": 185,
+"y": 298,
+"type": "quad"
+},
+{
+"x": 185,
+"y": 389,
+"type": "quad"
+},
+{
+"x": 194,
+"y": 489,
+"type": "quad"
+},
+{
+"x": 212,
+"y": 589,
+"type": "quad"
+},
+{
+"x": 227,
+"y": 627,
+"smooth": true
+},
+{
+"x": 239,
+"y": 657,
+"type": "quad"
+},
+{
+"x": 279,
+"y": 719,
+"type": "quad"
+},
+{
+"x": 332,
+"y": 768,
+"type": "quad"
+},
+{
+"x": 405,
+"y": 804,
+"type": "quad"
+},
+{
+"x": 437,
+"y": 811,
+"smooth": true
+},
+{
+"x": 448,
+"y": 814,
+"type": "quad"
+},
+{
+"x": 477,
+"y": 808,
+"type": "quad"
+},
+{
+"x": 483,
+"y": 783,
+"smooth": true
+},
+{
+"x": 488,
+"y": 762,
+"type": "quad"
+},
+{
+"x": 467,
+"y": 741,
+"type": "quad"
+},
+{
+"x": 453,
+"y": 737,
+"smooth": true
+},
+{
+"x": 428,
+"y": 731,
+"type": "quad"
+},
+{
+"x": 359,
+"y": 695,
+"type": "quad"
+},
+{
+"x": 327,
+"y": 648,
+"type": "quad"
+},
+{
+"x": 303,
+"y": 588,
+"type": "quad"
+},
+{
+"x": 296,
+"y": 556,
+"smooth": true
+},
+{
+"x": 290,
+"y": 531,
+"type": "quad"
+},
+{
+"x": 281,
+"y": 459,
+"type": "quad"
+},
+{
+"x": 277,
+"y": 383,
+"type": "quad"
+},
+{
+"x": 277,
+"y": 310,
+"type": "quad"
+},
+{
+"x": 279,
+"y": 284,
+"smooth": true
+},
+{
+"x": 284,
+"y": 226,
+"type": "quad"
+},
+{
+"x": 315,
+"y": 120,
+"type": "quad"
+},
+{
+"x": 356,
+"y": 42,
+"type": "quad"
+},
+{
+"x": 434,
+"y": -13,
+"type": "quad"
+},
+{
+"x": 455,
+"y": -18,
+"smooth": true
+},
+{
+"x": 471,
+"y": -22,
+"type": "quad"
+},
+{
+"x": 487,
+"y": -44,
+"type": "quad"
+},
+{
+"x": 481,
+"y": -70,
+"smooth": true
+},
+{
+"x": 477,
+"y": -85,
+"type": "quad"
+},
+{
+"x": 447,
+"y": -98,
+"type": "quad"
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 600
+}
+}
+}
+}

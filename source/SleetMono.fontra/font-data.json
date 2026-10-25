@@ -1,0 +1,77 @@
+{
+"fontInfo": {
+"familyName": "Sleet Mono",
+"versionMajor": 1,
+"versionMinor": 0,
+"copyright": "Copyright (c) 2026 Xiayong Li. Copyright (c) 2018 Shannon Miwa. Contains modified glyph outlines derived from Comic Shanns by Shannon Miwa, licensed under the MIT License.",
+"description": "A monospaced programming font with a casual, hand-drawn style.",
+"sampleText": "The quick brown fox jumps over 1234567890.",
+"designer": "Xiayong Li",
+"licenseDescription": "MIT License  Copyright (c) 2026 Xiayong Li Copyright (c) 2018 Shannon Miwa  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+"licenseInfoURL": "https://github.com/Case3y/sleet-mono/blob/master/LICENSE",
+"customData": {
+"openTypeHeadCreated": "2026/10/24 11:26:31",
+"openTypeNamePreferredFamilyName": "Sleet Mono",
+"openTypeNameUniqueID": "Sleet Mono Regular 1.00; 2026; XiayongLi",
+"openTypeNameVersion": "Version 1.00",
+"openTypeNameWWSFamilyName": "Sleet Mono",
+"openTypeOS2CodePageRanges": [],
+"openTypeOS2FamilyClass": [
+8,
+0
+],
+"openTypeOS2Panose": [
+2,
+11,
+5,
+9,
+4,
+5,
+4,
+2,
+2,
+4
+],
+"openTypeOS2Selection": [],
+"openTypeOS2Type": [
+0
+],
+"openTypeOS2UnicodeRanges": [],
+"openTypeOS2WeightClass": 400,
+"openTypeOS2WidthClass": 5,
+"postscriptWindowsCharacterSet": 2
+}
+},
+"sources": {
+"532c9e5a": {
+"name": "Regular",
+"lineMetricsHorizontalLayout": {
+"ascender": {
+"value": 1020
+},
+"descender": {
+"value": -300
+},
+"xHeight": {
+"value": 550
+},
+"capHeight": {
+"value": 730
+},
+"baseline": {
+"value": 0
+}
+}
+}
+},
+"customData": {
+"fontra.projectGlyphSets": [
+{
+"commentChars": "#",
+"dataFormat": "glyph-names",
+"name": "GF Latin Kernel",
+"url": "https://cdn.jsdelivr.net/gh/googlefonts/glyphsets/data/results/txt/nice-names/GF_Latin_Kernel.txt"
+}
+]
+}
+}
