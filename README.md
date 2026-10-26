@@ -16,7 +16,8 @@ vertical metrics and spacing.
 ## Character set
 
 Currently **103 glyphs**: complete Basic Latin (`U+0020`–`U+007E`), plus curly quotes
-and arrows. More glyphs and additional weights are in progress.
+and arrows. More glyphs and additional weights are in progress — see the
+[roadmap](ROADMAP.md).
 
 ![Character set](images/charset.png)
 
@@ -27,6 +28,22 @@ and arrows. More glyphs and additional weights are in progress.
 ## Symbols
 
 ![Symbols](images/symbols.png)
+
+## Roadmap
+
+Sleet Mono currently has one style and 103 codepoints. The goal is parity with
+JetBrains Mono: four styles and 1,372 codepoints.
+
+| Milestone | Scope |
+| --- | --- |
+| M1 | Bold, Italic and Bold Italic at the current character set |
+| M2 | Complete the GF Latin Kernel set |
+| M3 | Western European text and typography |
+| M4 | Coding symbols: arrows, math, box drawing, control pictures |
+| M5 | Greek and Cyrillic |
+| M6 | Remaining blocks: APL, double-struck, dingbats, Nerd Font extras |
+
+See [ROADMAP.md](ROADMAP.md) for the full checklist.
 
 ## Installation
 

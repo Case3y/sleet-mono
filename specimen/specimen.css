@@ -1,0 +1,488 @@
+/* ============================================================
+   Sleet Mono — specimen stylesheet
+   A4, 210 × 297 mm. One .page per printed page.
+   Labels only; no running description.
+   ============================================================ */
+
+@font-face {
+  font-family: "Sleet Mono";
+  src: url("../SleetMono-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+@page { size: 210mm 297mm; margin: 0; }
+
+:root {
+  --ink:      #16191c;
+  --ink-2:    #3f464d;
+  --muted:    #8d939a;
+  --faint:    #b7bbbe;
+  --rule:     #e6e6e2;
+  --rule-2:   #d7d7d2;
+  --accent:   #2c7f92;
+  --accent-2: #8fd6e8;
+  --tint:     #f2f9fa;
+
+  --dark:     #101216;
+  --dark-2:   #171a20;
+  --dark-tx:  #e9edf1;
+  --dark-tx2: #aab3bd;
+  --dark-mu:  #6b7480;
+
+  --sans: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --mono: "Sleet Mono", monospace;
+}
+
+* { box-sizing: border-box; }
+
+html, body { margin: 0; padding: 0; background: #fff; }
+
+body {
+  font-family: var(--sans);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+.page {
+  position: relative;
+  width: 210mm;
+  height: 297mm;
+  overflow: hidden;
+  background: #fff;
+  page-break-after: always;
+  break-after: page;
+}
+.page:last-child { page-break-after: auto; break-after: auto; }
+
+.pad {
+  position: absolute;
+  left: 18mm; right: 18mm; top: 16mm; bottom: 14mm;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ---------- page furniture ---------- */
+
+.phead {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 4mm;
+  border-bottom: 0.4pt solid var(--rule-2);
+  margin-bottom: 9mm;
+  flex: 0 0 auto;
+}
+
+.kicker {
+  font-size: 6.4pt;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 1.6mm 0 0;
+  font-size: 22pt;
+  font-weight: 700;
+  letter-spacing: -0.018em;
+  line-height: 1.05;
+}
+
+.pmeta {
+  font-size: 6.8pt;
+  line-height: 1.75;
+  color: var(--muted);
+  text-align: right;
+  letter-spacing: 0.02em;
+}
+.pmeta b { color: var(--ink-2); font-weight: 600; }
+
+.pfoot {
+  position: absolute;
+  left: 18mm; right: 18mm; bottom: 8mm;
+  display: flex;
+  justify-content: space-between;
+  font-size: 6.1pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+/* ============================================================
+   1 — Cover
+   ============================================================ */
+
+.cover {
+  background:
+    radial-gradient(150mm 110mm at 82% -8%, rgba(143, 214, 232, 0.13), transparent 62%),
+    radial-gradient(120mm 90mm at 2% 108%, rgba(143, 214, 232, 0.07), transparent 60%),
+    var(--dark);
+  color: var(--dark-tx);
+}
+
+.cover .frame {
+  position: absolute;
+  left: 18mm; right: 18mm; top: 16mm; bottom: 14mm;
+  display: flex;
+  flex-direction: column;
+}
+
+.cover .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 4mm;
+  border-bottom: 0.4pt solid rgba(255, 255, 255, 0.14);
+  flex: 0 0 auto;
+}
+.cover .kicker { color: var(--accent-2); opacity: 0.8; }
+.cover .top .right {
+  font-size: 6.4pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--dark-mu);
+}
+
+.cover .mid { margin-top: auto; margin-bottom: auto; }
+
+.cover .title {
+  font-family: var(--mono);
+  font-size: 78pt;
+  line-height: 1;
+  letter-spacing: -0.008em;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.cover .strip {
+  margin-top: 18mm;
+  font-family: var(--mono);
+  font-size: 25pt;
+  line-height: 1;
+  color: var(--accent-2);
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+.cover .alphabet {
+  margin-top: 10mm;
+  font-family: var(--mono);
+  font-size: 15pt;
+  line-height: 1.9;
+  color: var(--dark-tx2);
+  opacity: 0.55;
+  white-space: nowrap;
+}
+.cover .alphabet .q { color: var(--accent-2); opacity: 0.9; }
+
+.cover .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 4mm;
+  border-top: 0.4pt solid rgba(255, 255, 255, 0.14);
+  flex: 0 0 auto;
+}
+.cover .bottom .col {
+  font-size: 6.2pt;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--dark-mu);
+  line-height: 2;
+}
+.cover .bottom .col b {
+  display: block;
+  color: var(--dark-tx2);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+
+/* ============================================================
+   2 — Character set, one row per block
+   ============================================================ */
+
+.glance {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.glance .row {
+  padding: 6mm 0 5.4mm;
+  border-bottom: 0.4pt solid var(--rule);
+}
+.glance .row:first-child { border-top: 0.4pt solid var(--rule-2); }
+
+.glance .label {
+  font-size: 6.6pt;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 3mm;
+}
+.glance .line {
+  font-family: var(--mono);
+  font-size: 25pt;
+  line-height: 1.22;
+  white-space: nowrap;
+}
+.glance .line.wrap { white-space: normal; line-height: 1.3; }
+
+/* ============================================================
+   3–5 — Glyph grid
+   ============================================================ */
+
+.charset-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 0.4pt solid var(--rule-2);
+  border-left: 0.4pt solid var(--rule-2);
+  flex: 0 0 auto;
+}
+
+.cell {
+  height: 26.4mm;
+  border-right: 0.4pt solid var(--rule-2);
+  border-bottom: 0.4pt solid var(--rule-2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2mm;
+}
+
+.cell .g {
+  font-family: var(--mono);
+  font-size: 28pt;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.cell .cp {
+  font-size: 5.9pt;
+  letter-spacing: 0.12em;
+  color: var(--faint);
+}
+
+.cell.space .g {
+  width: 16mm;
+  height: 8mm;
+  border: 0.4pt dashed var(--faint);
+  border-radius: 0.8mm;
+  position: relative;
+}
+.cell.space .g::after {
+  content: "space";
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5.6pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.cell.ext { background: var(--tint); }
+.cell.ext .cp { color: var(--accent); opacity: 0.8; }
+
+/* ============================================================
+   6 — Waterfall
+   ============================================================ */
+
+.wf {
+  flex: 1;
+  padding-bottom: 6mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top: 0.4pt solid var(--rule-2);
+}
+
+.wf .row {
+  display: flex;
+  align-items: baseline;
+  gap: 6mm;
+  border-bottom: 0.4pt solid var(--rule);
+  padding-bottom: 1.5mm;
+}
+
+.wf .sz {
+  flex: 0 0 12mm;
+  font-size: 5.9pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
+
+.wf .sample {
+  font-family: var(--mono);
+  line-height: 1;
+  white-space: nowrap;
+  color: var(--ink);
+}
+
+.wf .s96 { font-size: 96pt; }
+.wf .s64 { font-size: 64pt; }
+.wf .s44 { font-size: 44pt; }
+.wf .s30 { font-size: 30pt; }
+.wf .s22 { font-size: 22pt; }
+.wf .s16 { font-size: 16pt; }
+.wf .s12 { font-size: 12pt; }
+.wf .s9  { font-size: 9pt; }
+.wf .s7  { font-size: 7pt; }
+.wf .s5  { font-size: 5pt; }
+
+/* ============================================================
+   7 — In use
+   ============================================================ */
+
+.prose {
+  font-family: var(--mono);
+  font-size: 9.6pt;
+  line-height: 1.68;
+  color: var(--ink);
+  margin: 0;
+}
+.prose.two { display: flex; gap: 10mm; margin-top: 2mm; }
+.prose.two .col { flex: 1; padding-right: 10mm; }
+.prose.two .col + .col {
+  border-left: 0.4pt solid var(--rule);
+  padding-left: 10mm;
+  padding-right: 0;
+}
+.prose p { margin: 0 0 2.6mm; }
+.prose p:last-child { margin-bottom: 0; }
+
+.codecard {
+  background: var(--dark-2);
+  border-radius: 2mm;
+  padding: 9mm 10mm 10mm;
+  color: var(--dark-tx);
+  font-family: var(--mono);
+  font-size: 11.4pt;
+  line-height: 1.72;
+  flex: 0 0 auto;
+}
+.codecard .bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5mm;
+  margin-bottom: 6mm;
+  border-bottom: 0.4pt solid rgba(255, 255, 255, 0.08);
+  font-size: 7.4pt;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dark-mu);
+}
+.codecard .bar .win {
+  display: flex;
+  align-items: center;
+  gap: 4.5mm;
+}
+.codecard .bar .dots { display: flex; gap: 1.9mm; }
+.codecard .bar .dots i {
+  width: 1.9mm;
+  height: 1.9mm;
+  border-radius: 50%;
+  background: #3a4048;
+}
+.codecard pre { margin: 0; font: inherit; }
+.codecard .ln {
+  display: inline-block;
+  width: 9mm;
+  color: #454c55;
+  text-align: right;
+  margin-right: 7mm;
+}
+.codecard .kw  { color: #8fd6e8; }
+.codecard .ty  { color: #c9b8e8; }
+.codecard .fn  { color: #e9edf1; }
+.codecard .num { color: #e6c690; }
+.codecard .str { color: #a9d8b2; }
+.codecard .com { color: #5b646e; }
+
+/* ============================================================
+   8 — Monospace proof
+   ============================================================ */
+
+.grid-demo {
+  font-family: var(--mono);
+  font-size: 16pt;
+  line-height: 2.1;
+  color: var(--ink);
+  flex: 0 0 auto;
+}
+.grid-demo .grow {
+  display: inline-block;
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(44, 127, 146, 0.2) 0 0.4pt,
+    transparent 0.4pt 9.6pt
+  );
+}
+.grid-demo .dim { color: var(--muted); }
+
+.align-wrap { flex: 0 0 auto; margin-top: 9mm; }
+.align {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 10pt;
+  line-height: 1.95;
+  border-collapse: collapse;
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(44, 127, 146, 0.16) 0 0.4pt,
+    transparent 0.4pt 6pt
+  );
+}
+.align td { padding: 0; white-space: pre; }
+.align td.n { text-align: right; }
+
+.pairs {
+  margin-top: 7mm;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 7mm 8mm;
+  flex: 0 0 auto;
+}
+.pairs .p {
+  font-family: var(--mono);
+  font-size: 30pt;
+  line-height: 1.15;
+  color: var(--ink);
+}
+
+/* ---------- shared subhead ---------- */
+
+.subhead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 8mm 0 3mm;
+  padding-bottom: 2mm;
+  border-bottom: 0.4pt solid var(--rule-2);
+  flex: 0 0 auto;
+}
+.subhead .t {
+  font-size: 6.6pt;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.subhead .r {
+  font-size: 6.2pt;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--faint);
+}
