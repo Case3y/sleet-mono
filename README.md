@@ -30,8 +30,22 @@ and arrows. More glyphs and additional weights are in progress.
 
 ## Installation
 
-Download `SleetMono.ttf` (or `SleetMono.otf`) from [`fonts/`](fonts/), then install it
-with your system font manager.
+### Homebrew (macOS)
+
+```sh
+brew install --cask Case3y/fonts/font-sleet-mono
+```
+
+For the Nerd Font patched build, which adds terminal and editor icons:
+
+```sh
+brew install --cask Case3y/fonts/font-sleet-mono-nerd-font
+```
+
+### Manual
+
+Download `SleetMono-Regular.ttf` from [`fonts/`](fonts/), then install it with your
+system font manager.
 
 ## Credits
 
