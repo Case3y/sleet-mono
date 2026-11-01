@@ -1,0 +1,86 @@
+{
+"name": "period",
+"sources": [
+{
+"name": "",
+"layerName": "e1d744cd",
+"locationBase": "e1d744cd"
+}
+],
+"layers": {
+"e1d744cd": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 253,
+"y": -6,
+"smooth": true
+},
+{
+"x": 213,
+"y": -10,
+"type": "quad"
+},
+{
+"x": 177,
+"y": 42,
+"type": "quad"
+},
+{
+"x": 182,
+"y": 73,
+"smooth": true
+},
+{
+"x": 188,
+"y": 105,
+"type": "quad"
+},
+{
+"x": 250,
+"y": 150,
+"type": "quad"
+},
+{
+"x": 281,
+"y": 151,
+"smooth": true
+},
+{
+"x": 318,
+"y": 152,
+"type": "quad"
+},
+{
+"x": 354,
+"y": 106,
+"type": "quad"
+},
+{
+"x": 349,
+"y": 74,
+"smooth": true
+},
+{
+"x": 343,
+"y": 43,
+"type": "quad"
+},
+{
+"x": 291,
+"y": -2,
+"type": "quad"
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 600
+}
+}
+}
+}

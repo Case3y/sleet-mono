@@ -1,0 +1,129 @@
+{
+"name": "grave",
+"sources": [
+{
+"name": "",
+"layerName": "a2e65410",
+"locationBase": "a2e65410"
+}
+],
+"layers": {
+"a2e65410": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 365,
+"y": 603,
+"smooth": true
+},
+{
+"x": 343,
+"y": 624,
+"type": "quad"
+},
+{
+"x": 286,
+"y": 690,
+"type": "quad"
+},
+{
+"x": 265,
+"y": 720,
+"smooth": true
+},
+{
+"x": 252,
+"y": 738,
+"type": "quad"
+},
+{
+"x": 265,
+"y": 782,
+"type": "quad"
+},
+{
+"x": 280,
+"y": 793,
+"smooth": true
+},
+{
+"x": 296,
+"y": 805,
+"type": "quad"
+},
+{
+"x": 321,
+"y": 802,
+"smooth": true
+},
+{
+"x": 342,
+"y": 799,
+"type": "quad"
+},
+{
+"x": 357,
+"y": 783
+},
+{
+"x": 378,
+"y": 755,
+"type": "quad"
+},
+{
+"x": 421,
+"y": 693,
+"type": "quad"
+},
+{
+"x": 442,
+"y": 669,
+"smooth": true
+},
+{
+"x": 459,
+"y": 650,
+"type": "quad"
+},
+{
+"x": 455,
+"y": 631,
+"smooth": true
+},
+{
+"x": 452,
+"y": 613,
+"type": "quad"
+},
+{
+"x": 433,
+"y": 600,
+"smooth": true
+},
+{
+"x": 419,
+"y": 590,
+"type": "quad"
+},
+{
+"x": 401,
+"y": 590
+},
+{
+"x": 380,
+"y": 589,
+"type": "quad"
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 600
+}
+}
+}
+}

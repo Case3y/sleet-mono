@@ -4,8 +4,8 @@ The long-term goal is coverage parity with
 [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono): **4 styles**,
 **1,372 mapped codepoints** and **153 ligatures**.
 
-Today Sleet Mono has 1 style, 103 codepoints and no OpenType layout tables, so
-1,269 codepoints are still missing.
+As of version 1.100, Sleet Mono ships all **4 styles** at 103 codepoints each,
+with no OpenType layout tables yet, so 1,269 codepoints are still missing.
 
 > The counts below were computed by diffing the `cmap` tables of
 > `JetBrainsMono-Regular.ttf` and `SleetMono-Regular.ttf`. They will drift as
@@ -15,7 +15,7 @@ Today Sleet Mono has 1 style, 103 codepoints and no OpenType layout tables, so
 
 | Milestone | Scope |
 | --- | --- |
-| M1 | Regular, Bold, Italic, Bold Italic at the current 103-glyph charset |
+| M1 | Regular, Bold, Italic, Bold Italic at the current 103-glyph charset — **done in version 1.100** |
 | M2 | Complete the GF Latin Kernel set referenced in the Fontra project (17 glyphs short today) |
 | M3 | Latin-1 Supplement, Latin Extended-A/B, typography punctuation, currency |
 | M4 | Coding symbols: arrows, math, box drawing, block elements, control pictures |
@@ -24,16 +24,13 @@ Today Sleet Mono has 1 style, 103 codepoints and no OpenType layout tables, so
 
 ## Weights and styles
 
-- [ ] **Bold** — redraw the stems rather than emboldening Regular; JetBrains Mono
+- [x] **Bold** — redraw the stems rather than emboldening Regular; JetBrains Mono
       Bold is redrawn (`l` widens from 520 to 532 units, `I` from 390 to 420)
-- [ ] **Italic** — a true italic, not a mechanical slant: redesign `a`, `e`, `f`,
-      `g`, `i`, `l` and friends, then apply the −9° slant
-- [ ] **Bold Italic**
-- [ ] Keep the 600-unit advance width and the vertical metrics (ascender 1020,
+- [x] **Italic** — a true italic, not a mechanical slant: redesign `a`, `e`, `f`,
+      `g`, `i`, `l` and friends, then apply the −10° slant
+- [x] **Bold Italic**
+- [x] Keep the 600-unit advance width and the vertical metrics (ascender 1020,
       descender −300, x-height 550, cap height 730) identical in every style
-- [ ] Per-style `name` table, `usWeightClass` (400 for Regular/Italic; for Bold,
-      either 700 or JetBrains Mono's 558), `fsSelection`, `macStyle`,
-      `italicAngle` and unique ID
 - [ ] Optional, later: a variable font build
 
 ## Glyph coverage
@@ -127,7 +124,7 @@ new work. JetBrains Mono's set is the reference.
 
 ## Housekeeping
 
-- [ ] Set up the Fontra project with one source per style
+- [x] Set up the Fontra project with one source per style
 - [ ] Add a charset-parity and advance-width check to the build
 - [ ] Regenerate the charset and symbols images for each style
 - [ ] Ship the new styles in the Homebrew cask and the Nerd Font build

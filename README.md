@@ -5,6 +5,13 @@ Open forms, generous spacing, made for reading code.
 
 ![Sleet Mono](images/hero.png)
 
+## Styles
+
+Four styles — Regular, Italic, Bold and Bold Italic — share the same 600-unit
+advance and vertical metrics, so switching between them never shifts your layout.
+
+![The four styles of Sleet Mono](images/styles.png)
+
 ## Why Sleet Mono
 
 I love Comic-style typefaces, but I wasn't happy with some of the glyph metrics in
@@ -15,9 +22,9 @@ vertical metrics and spacing.
 
 ## Character set
 
-Currently **103 glyphs**: complete Basic Latin (`U+0020`–`U+007E`), plus curly quotes
-and arrows. More glyphs and additional weights are in progress — see the
-[roadmap](ROADMAP.md).
+All four styles cover the same **103 glyphs**: complete Basic Latin
+(`U+0020`–`U+007E`), plus curly quotes and arrows. More glyphs are in progress —
+see the [roadmap](ROADMAP.md).
 
 ![Character set](images/charset.png)
 
@@ -31,17 +38,18 @@ and arrows. More glyphs and additional weights are in progress — see the
 
 ## Roadmap
 
-Sleet Mono currently has one style and 103 codepoints. The goal is parity with
-JetBrains Mono: four styles and 1,372 codepoints.
+Sleet Mono 1.100 ships all four styles at 103 codepoints. What remains is glyph
+coverage and OpenType features, towards parity with JetBrains Mono's 1,372
+codepoints and 153 ligatures.
 
-| Milestone | Scope |
-| --- | --- |
-| M1 | Bold, Italic and Bold Italic at the current character set |
-| M2 | Complete the GF Latin Kernel set |
-| M3 | Western European text and typography |
-| M4 | Coding symbols: arrows, math, box drawing, control pictures |
-| M5 | Greek and Cyrillic |
-| M6 | Remaining blocks: APL, double-struck, dingbats, Nerd Font extras |
+| Milestone | Scope | Status |
+| --- | --- | --- |
+| M1 | Regular, Bold, Italic and Bold Italic at the current character set | Done inversion 1.100 |
+| M2 | Complete the GF Latin Kernel set | Planned |
+| M3 | Western European text and typography | Planned |
+| M4 | Coding symbols: arrows, math, box drawing, control pictures | Planned |
+| M5 | Greek and Cyrillic | Planned |
+| M6 | Remaining blocks: APL, double-struck, dingbats, Nerd Font extras | Planned |
 
 See [ROADMAP.md](ROADMAP.md) for the full checklist.
 
@@ -61,8 +69,9 @@ brew install --cask Case3y/fonts/font-sleet-mono-nerd-font
 
 ### Manual
 
-Download `SleetMono-Regular.ttf` from [`fonts/`](fonts/), then install it with your
-system font manager.
+Download the four styles from [`fonts/`](fonts/) — `SleetMono-Regular.ttf`,
+`SleetMono-Italic.ttf`, `SleetMono-Bold.ttf` and `SleetMono-BoldItalic.ttf` — then
+install them with your system font manager.
 
 ## Credits
 

@@ -1,0 +1,271 @@
+{
+"name": "colon",
+"sources": [
+{
+"name": "",
+"layerName": "7d2714f5",
+"locationBase": "7d2714f5"
+}
+],
+"layers": {
+"7d2714f5": {
+"glyph": {
+"path": {
+"contours": [
+{
+"points": [
+{
+"x": 390,
+"y": 523
+},
+{
+"x": 398,
+"y": 503,
+"type": "quad"
+},
+{
+"x": 397,
+"y": 481,
+"smooth": true
+},
+{
+"x": 397,
+"y": 458,
+"type": "quad"
+},
+{
+"x": 384,
+"y": 438,
+"smooth": true
+},
+{
+"x": 370,
+"y": 417,
+"type": "quad"
+},
+{
+"x": 344,
+"y": 406,
+"smooth": true
+},
+{
+"x": 320,
+"y": 396,
+"type": "quad"
+},
+{
+"x": 302,
+"y": 396,
+"smooth": true
+},
+{
+"x": 268,
+"y": 396,
+"type": "quad"
+},
+{
+"x": 246,
+"y": 408,
+"smooth": true
+},
+{
+"x": 223,
+"y": 420,
+"type": "quad"
+},
+{
+"x": 213,
+"y": 445,
+"smooth": true
+},
+{
+"x": 203,
+"y": 471,
+"type": "quad"
+},
+{
+"x": 204,
+"y": 489
+},
+{
+"x": 204,
+"y": 505,
+"type": "quad"
+},
+{
+"x": 212,
+"y": 525,
+"smooth": true
+},
+{
+"x": 224,
+"y": 555,
+"type": "quad"
+},
+{
+"x": 255,
+"y": 566,
+"smooth": true
+},
+{
+"x": 282,
+"y": 575,
+"type": "quad"
+},
+{
+"x": 303,
+"y": 574
+},
+{
+"x": 323,
+"y": 575,
+"type": "quad"
+},
+{
+"x": 348,
+"y": 565,
+"smooth": true
+},
+{
+"x": 377,
+"y": 554,
+"type": "quad"
+},
+{
+"x": 390,
+"y": 523
+}
+],
+"isClosed": true
+},
+{
+"points": [
+{
+"x": 349,
+"y": 142,
+"smooth": true
+},
+{
+"x": 378,
+"y": 131,
+"type": "quad"
+},
+{
+"x": 391,
+"y": 100,
+"smooth": true
+},
+{
+"x": 399,
+"y": 80,
+"type": "quad"
+},
+{
+"x": 398,
+"y": 58,
+"smooth": true
+},
+{
+"x": 398,
+"y": 35,
+"type": "quad"
+},
+{
+"x": 385,
+"y": 15,
+"smooth": true
+},
+{
+"x": 371,
+"y": -6,
+"type": "quad"
+},
+{
+"x": 345,
+"y": -17,
+"smooth": true
+},
+{
+"x": 321,
+"y": -27,
+"type": "quad"
+},
+{
+"x": 303,
+"y": -27,
+"smooth": true
+},
+{
+"x": 269,
+"y": -27,
+"type": "quad"
+},
+{
+"x": 247,
+"y": -15,
+"smooth": true
+},
+{
+"x": 224,
+"y": -3,
+"type": "quad"
+},
+{
+"x": 214,
+"y": 22,
+"smooth": true
+},
+{
+"x": 204,
+"y": 48,
+"type": "quad"
+},
+{
+"x": 205,
+"y": 66
+},
+{
+"x": 205,
+"y": 82,
+"type": "quad"
+},
+{
+"x": 213,
+"y": 102,
+"smooth": true
+},
+{
+"x": 225,
+"y": 132,
+"type": "quad"
+},
+{
+"x": 256,
+"y": 142,
+"smooth": true
+},
+{
+"x": 283,
+"y": 151,
+"type": "quad"
+},
+{
+"x": 304,
+"y": 151,
+"smooth": true
+},
+{
+"x": 324,
+"y": 152,
+"type": "quad"
+}
+],
+"isClosed": true
+}
+]
+},
+"xAdvance": 600
+}
+}
+}
+}
