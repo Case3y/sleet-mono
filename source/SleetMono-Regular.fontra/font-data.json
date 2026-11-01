@@ -2,7 +2,7 @@
 "fontInfo": {
 "familyName": "Sleet Mono",
 "versionMajor": 1,
-"versionMinor": 100,
+"versionMinor": 101,
 "copyright": "Copyright (c) 2026 Xiayong Li. Copyright (c) 2018 Shannon Miwa. Contains modified glyph outlines derived from Comic Shanns by Shannon Miwa, licensed under the MIT License.",
 "description": "A monospaced programming font with a casual, hand-drawn style.",
 "sampleText": "The quick brown fox jumps over 1234567890.",
@@ -12,8 +12,8 @@
 "customData": {
 "openTypeHeadCreated": "2026/10/24 11:26:31",
 "openTypeNamePreferredFamilyName": "Sleet Mono",
-"openTypeNameUniqueID": "Sleet Mono Regular 1.100; 2026; XiayongLi",
-"openTypeNameVersion": "Version 1.100",
+"openTypeNameUniqueID": "Sleet Mono Regular 1.101; 2026; XiayongLi",
+"openTypeNameVersion": "Version 1.101",
 "openTypeNameWWSFamilyName": "Sleet Mono",
 "openTypeOS2CodePageRanges": [],
 "openTypeOS2FamilyClass": [
